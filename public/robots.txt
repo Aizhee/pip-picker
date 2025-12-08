@@ -1,0 +1,11 @@
+# robots.txt - prevent automated crawlers from scraping API endpoints
+# Note: robots.txt is advisory; consider rate-limiting and auth for stronger protection.
+
+User-agent: *
+Disallow: /api/
+Disallow: /api
+# polite suggestion to slow down aggressive crawlers (may be ignored)
+Crawl-delay: 10
+
+# Allow everything else
+Allow: /
