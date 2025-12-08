@@ -2,6 +2,8 @@
 
 pip-picker is a small Next.js prototype for interactively selecting Python packages and performing simple compatibility checks using PyPI metadata.
 
+![image](screenshot.png)
+
 -- Quick summary
 
 - Search PyPI packages and add them to the workspace
